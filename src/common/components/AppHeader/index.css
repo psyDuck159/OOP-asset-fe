@@ -1,0 +1,29 @@
+.ant-breadcrumb {
+	color: white !important;
+	font-size: 16px !important;
+	line-height: 3;
+}
+
+.ant-breadcrumb li:last-child {
+	color: white !important;
+}
+
+.ant-breadcrumb-separator {
+	color: white;
+}
+
+.header {
+	padding: 10px 10px;
+	background-color: #cf2338;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.ant-dropdown-trigger {
+	font-weight: 600;
+	font-size: 16 !important;
+	padding-right: 20px;
+}

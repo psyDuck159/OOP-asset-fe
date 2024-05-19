@@ -1,0 +1,71 @@
+.ant-layout {
+	background: #d9ead3 !important;
+	min-height: 650px !important;
+}
+
+/*
+header
+------
+*/
+.mainLayout .ant-layout-header {
+	background: #f8f8f8;
+	padding: 0;
+	height: auto;
+	line-height: 3;
+}
+.ant-layout-header {
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+/*
+  sider
+*/
+
+.ant-layout-sider {
+	/* max-width: 230px !important;
+	width: 230px !important;
+	flex-basis: 230px !important; */
+}
+
+.title {
+	padding: 0 0 30px 10px;
+	color: red;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.container {
+	padding: 2% 2% 0 5%;
+	width: 85%;
+}
+
+/* Content */
+.ant-layout-content {
+	display: flex;
+	flex-direction: row;
+	min-height: calc(100vh - 80px);
+}
+
+/*
+  footer
+  ------
+  */
+.ant-layout-footer {
+	background: beige !important;
+	height: 70px;
+}
+
+/* AntD Modal */
+.ant-modal-content {
+	border-radius: 20px;
+}
+
+.ant-modal-header {
+	border-radius: 20px;
+}
+
+/* AntD Button */
+.ant-btn {
+	border-radius: 6px;
+}
